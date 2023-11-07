@@ -6,8 +6,8 @@ import 'dart:html';
 
 import 'dart:typed_data';
 import 'package:logging/logging.dart';
-import 'package:socket_io_common/src/util/event_emitter.dart';
-import 'package:socket_io_client/src/engine/transport/polling_transport.dart';
+import 'package:socket_io_common_1_0/src/util/event_emitter.dart';
+import 'package:socket_io_client_1_0/src/engine/transport/polling_transport.dart';
 
 final Logger _logger = Logger('socket_io_client:transport.XHRTransport');
 

@@ -14,13 +14,13 @@
 library socket_io_client;
 
 import 'package:logging/logging.dart';
-import 'package:socket_io_client/src/socket.dart';
-import 'package:socket_io_common/src/engine/parser/parser.dart' as parser;
-import 'package:socket_io_client/src/engine/parseqs.dart';
-import 'package:socket_io_client/src/manager.dart';
+import 'package:socket_io_client_1_0/src/socket.dart';
+import 'package:socket_io_common_1_0/src/engine/parser/parser.dart' as parser;
+import 'package:socket_io_client_1_0/src/engine/parseqs.dart';
+import 'package:socket_io_client_1_0/src/manager.dart';
 
-export 'package:socket_io_client/src/socket.dart';
-export 'package:socket_io_client/src/darty.dart';
+export 'package:socket_io_client_1_0/src/socket.dart';
+export 'package:socket_io_client_1_0/src/darty.dart';
 
 // Protocol version
 final protocol = parser.protocol;

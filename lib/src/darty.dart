@@ -2,8 +2,8 @@
 // History: 2020/11/27 11:47 AM
 // Author: jumperchen<jumperchen@potix.com>
 
-import 'package:socket_io_client/socket_io_client.dart';
-import 'package:socket_io_common/src/util/event_emitter.dart';
+import 'package:socket_io_client_1_0/socket_io_client.dart';
+import 'package:socket_io_common_1_0/src/util/event_emitter.dart';
 
 /// Default event listeners for dart way API.
 extension DartySocket on Socket {
